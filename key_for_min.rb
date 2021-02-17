@@ -6,6 +6,9 @@ def key_for_min_value(name_hash)
   binding.pry
   name_hash.first[1]
   #current_smallest_value = name_hash.first[1]
+
+  if current_smallest_value > value
+    current_smallest_value = value 
 #  name_hash.each |key, value|
 
 
