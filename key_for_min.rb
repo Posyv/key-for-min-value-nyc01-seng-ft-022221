@@ -3,8 +3,10 @@
 
 def key_for_min_value(name_hash)
   least = 0
-if key_for_min_value{|key, value|} < 0
+array.each do
+  if key_for_min_value{|key, value|} < 0
  key_for_min_value
 least += 1
+end
 end
 end
