@@ -3,7 +3,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-
   name_hash.first[1]
   current_smallest_value = name_hash.first[1]
   k = name_hash.first[0]
@@ -12,6 +11,6 @@ def key_for_min_value(name_hash)
      current_smallest_value = value
      k = key
 end
-k
 end
+k
 end
